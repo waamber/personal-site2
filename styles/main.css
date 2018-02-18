@@ -1,0 +1,28 @@
+body {
+  margin: 10px;
+  margin-right: 25px;
+  padding: 10px;
+}
+
+#photo {
+  margin: 20px;
+  width: 450px;
+  height: auto;
+}
+
+.icon-group {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5px;
+  display: inline;
+}
+
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
