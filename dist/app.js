@@ -34,4 +34,5 @@ $(".card").hover(function () {
 }, function () {
   $(this).removeClass("flip");
 });
+
 },{}]},{},[1]);
