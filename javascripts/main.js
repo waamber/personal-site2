@@ -1,5 +1,9 @@
 "use strict";
 
+$('#cacheBtn').on('shown.bs.modal', function () {
+  $('#cacheModal').trigger('focus');
+});
+
 $('#github').hover(
   function () {
     $(this).addClass('animated swing');
