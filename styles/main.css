@@ -50,3 +50,7 @@ a:hover
      text-decoration:none; 
      cursor:pointer;  
 }
+
+#cache-modal-body {
+  margin-left: 15px;
+}
