@@ -6,8 +6,37 @@
   height: 425px;
 }
 
+#about-me-photo {
+  margin-top: 250px;
+}
+
+#about-description {
+  border-left: 5px solid #FFBFA7;
+  height: 900px;
+}
+
+#about-description h3 {
+  margin: 25px;
+  margin-top: 250px;
+}
+
 #projects-section {
   background-color: blue;
+}
+
+#cache-img {
+  background-image: url('../images/cache-photo.png');
+
+}
+
+#magic-img {
+  background-image: url("../images/magic-photo.png");
+  background-size: cover;
+}
+
+#movie-img {
+  background-image: url("..images/movie-history-photo.png");
+  background-size: cover;
 }
 
 #contact-section {
