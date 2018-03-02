@@ -13,6 +13,7 @@
 #about-description {
   border-left: 5px solid #FFBFA7;
   height: 900px;
+  margin-left: 0;
 }
 
 #about-description h3 {
@@ -21,23 +22,10 @@
 }
 
 #projects-section {
-  background-color: blue;
+  background-color: #FFBFA7;
 }
 
-#cache-img {
-  background-image: url('../images/cache-photo.png');
 
-}
-
-#magic-img {
-  background-image: url("../images/magic-photo.png");
-  background-size: cover;
-}
-
-#movie-img {
-  background-image: url("..images/movie-history-photo.png");
-  background-size: cover;
-}
 
 #contact-section {
   background-color: green;
