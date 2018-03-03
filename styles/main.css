@@ -25,7 +25,24 @@
   background-color: #FFBFA7;
 }
 
+.photo {
+  max-height: 100%;
+}
 
+#cache-photo {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+#movie-photo {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+#magic-photo {
+  max-height: 50%;
+  max-width: 50%;
+}
 
 #contact-section {
   background-color: green;
