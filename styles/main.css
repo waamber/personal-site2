@@ -6,12 +6,44 @@
   height: 425px;
 }
 
+#about-me-photo {
+  margin-top: 250px;
+}
+
+#about-description {
+  border-left: 5px solid #FFBFA7;
+  height: 900px;
+  margin-left: 0;
+}
+
+#about-description h3 {
+  margin: 25px;
+  margin-top: 250px;
+}
+
 #projects-section {
-  background-color: blue;
+  background-color: #FFBFA7;
+}
+
+.photo {
+  max-height: 100%;
 }
 
 #contact-section {
-  background-color: green;
+  background-color: white;
+}
+
+#contact-icon-group {
+  margin: 0;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFBFA7;
 }
 
 /* HEXAGON IMAGE STYLING */

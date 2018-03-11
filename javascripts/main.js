@@ -13,3 +13,19 @@ $(".main").onepage_scroll({
   responsiveFallback: false,
   direction: "vertical"
 });
+
+$("#github-icon").hover(function () {
+  $(this).addClass("animated swing");
+});
+
+$("#linkedin-icon").hover(function () {
+  $(this).addClass("animated swing");
+});
+
+$("#twitter-icon").hover(function () {
+  $(this).addClass("animated swing");
+});
+
+$("#email-icon").hover(function () {
+  $(this).addClass("animated swing");
+});
