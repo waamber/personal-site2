@@ -29,23 +29,21 @@
   max-height: 100%;
 }
 
-#cache-photo {
-  max-height: 50%;
-  max-width: 50%;
-}
-
-#movie-photo {
-  max-height: 50%;
-  max-width: 50%;
-}
-
-#magic-photo {
-  max-height: 50%;
-  max-width: 50%;
-}
-
 #contact-section {
-  background-color: green;
+  background-color: white;
+}
+
+#contact-icon-group {
+  margin: 0;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFBFA7;
 }
 
 /* HEXAGON IMAGE STYLING */
