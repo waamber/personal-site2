@@ -15,6 +15,18 @@ $(".main").onepage_scroll({
   direction: "vertical"
 });
 
+$('#about-nav').click(function () {
+  $(".main").moveTo(2);
+});
+
+$('#projects-nav').click(function () {
+  $(".main").moveTo(3);
+});
+
+$('#contact-nav').click(function () {
+  $(".main").moveTo(4);
+});
+
 $("#github-icon").hover(function () {
   $(this).addClass("animated swing");
 });

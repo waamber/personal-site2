@@ -1,19 +1,52 @@
 #landing-section {
-  background-color: pink;
+  background-color: black;
+}
+
+#name {
+  margin-top: 85px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 75px;
+  color: maroon;
+}
+
+#title {
+  font-family: 'Pacifico', cursive;
+  color: gainsboro;
+}
+
+#logo {
+  margin: 75px;
 }
 
 #logo-img {
   height: 425px;
 }
 
+#main-navigation {
+  font-family: 'Quicksand', sans-serif;
+  color: maroon;
+}
+
+#about-me-left {
+  background-color: black;
+  height: 900px;
+}
+
 #about-me-photo {
   margin-top: 250px;
 }
 
+#about-title {
+  color: gainsboro;
+  font-family: 'Pacifico', cursive;
+}
+
 #about-description {
-  border-left: 5px solid #FFBFA7;
+  background-color:  gainsboro;
   height: 900px;
   margin-left: 0;
+  color: maroon;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #about-description h3 {
@@ -22,7 +55,7 @@
 }
 
 #projects-section {
-  background-color: #FFBFA7;
+  background-color: maroon;
 }
 
 .photo {
