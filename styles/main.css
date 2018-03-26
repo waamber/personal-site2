@@ -61,11 +61,24 @@
 
 #projects-section {
   background-color: maroon;
+}
 
+#projects-heading {
+  margin-top: 100px;
+  color: white;
+  font-family: 'Pacifico', cursive;
 }
 
 .project-img {
   max-height: 230px;
+}
+.project-icon-group {
+  margin-top: 15px;
+}
+
+.project-inline {
+  display: inline-block;
+  margin-right: 5px;
 }
 
 #contact-section {
@@ -73,8 +86,18 @@
 }
 
 #contact-heading {
+  margin-top: 100px;
   color: white;
   font-family: 'Pacifico', cursive;
+}
+
+#contact-sub-heading {
+  color: maroon;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#contact-icon-group {
+  margin-top: 175px;
 }
 
 #contact-group {
