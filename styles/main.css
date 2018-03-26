@@ -27,6 +27,11 @@
   color: maroon;
 }
 
+.nav:hover {
+  color: white;
+  cursor: pointer;
+}
+
 #about-me-left {
   background-color: black;
   height: 900px;
@@ -58,25 +63,59 @@
   background-color: maroon;
 }
 
-.photo {
-  max-height: 100%;
+#projects-heading {
+  margin-top: 100px;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+.project-img {
+  max-height: 230px;
+}
+.project-icon-group {
+  margin-top: 15px;
+}
+
+.project-inline {
+  display: inline-block;
+  margin-right: 5px;
 }
 
 #contact-section {
-  background-color: white;
+  background-color: black;
+}
+
+#contact-heading {
+  margin-top: 100px;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+#contact-sub-heading {
+  color: maroon;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #contact-icon-group {
-  margin: 0;
+  margin-top: 175px;
+}
+
+#contact-group {
+  margin: 25px;
+}
+
+.inline {
   display: inline-block;
+  margin-right: 50px;
 }
 
 a {
+  color: gainsboro;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FFBFA7;
+  color: maroon;
 }
 
 /* HEXAGON IMAGE STYLING */

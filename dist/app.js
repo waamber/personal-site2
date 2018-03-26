@@ -15,6 +15,8 @@ $(".main").onepage_scroll({
   direction: "vertical"
 });
 
+//NAV FUCTIONALITY//
+
 $('#about-nav').click(function () {
   $(".main").moveTo(2);
 });
@@ -26,6 +28,19 @@ $('#projects-nav').click(function () {
 $('#contact-nav').click(function () {
   $(".main").moveTo(4);
 });
+
+//PROJECT MODALS//
+
+$(document).ready(function () {
+  $("#cache-modal").click(function () {
+    $('#cacheModal').modal('show');
+  });
+});
+
+
+
+
+//CONTACT ICON ANIMATION//
 
 $("#github-icon").hover(function () {
   $(this).addClass("animated swing");
