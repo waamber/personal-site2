@@ -33,13 +33,13 @@
 
         <div id="main-navigation">
           <div class="row col-md-offset-4">
-            <div id="about-nav" class="col-md-2">
+            <div id="about-nav" class="col-md-2 nav">
               <h4>ABOUT</h4>
             </div>
-            <div id="projects-nav" class="col-md-2">
+            <div id="projects-nav" class="col-md-2 nav">
               <h4>PROJECTS</h4>
             </div>
-            <div id="contact-nav" class="col-md-2">
+            <div id="contact-nav" class="col-md-2 nav">
               <h4>CONTACT</h4>
             </div>
           </div>
@@ -78,21 +78,34 @@
 
     <section id="projects-section">
       <h1>Projects</h1>
-    </section>
-
-    <section id="contact-section">
-      <div class="row">
-        <div class="col-xs-6 text-center">
-          <h1>Contact Me</h1>
+      <div class="row text-center">
+        <div id="cache-modal" class="col-md-4 col-xs-12"><img class="project-img" src="../images/cache-photo.png" />
+          <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#cacheModal">Large button</button>
         </div>
-        <div class="col-xs-6 text-center"></div>
-        <div id="contact-icon-group">
-          <div id="github-icon"><a href="https://github.com/waamber"><i class="fab fa-github-alt fa-7x"></i></a></div>
-          <div id="linkedin-icon"><a href="https://www.linkedin.com/in/amber-stuart-00076286/"><i class="fab fa-linkedin-in fa-7x"></i></a></div>
-          <div id="twitter-icon"><a href="https://twitter.com/amber_maynee?lang=en"><i class="fab fa-twitter fa-7x"></i></a></div>
-          <div id="email-icon"><a href="mailto:wammber15@gmail.com"><i class="far fa-envelope fa-7x"></i></a></div>
+        <div class="col-md-4 col-xs-12"><img class="project-img" src="../images/magic-photo.png" />
+        </div>
+        <div class="col-md-4 col-xs-12"><img class="project-img" src="../images/movie-history-photo.png" />
         </div>
       </div>
+
+
+
+
+    </section>
+
+    <section class="col-xs-6 text-center" id="contact-section">
+      
+        <div>
+          <h1 id="contact-heading">Contact Me</h1>
+        </div>
+
+        <div id ="contact-icon-group">
+          <div class="inline" id="github-icon"><a href="https://github.com/waamber"><i class="fab fa-github-alt fa-7x"></i></a></div>
+          <div class="inline" id="linkedin-icon"><a href="https://www.linkedin.com/in/amber-stuart-00076286/"><i class="fab fa-linkedin-in fa-7x"></i></a></div>
+          <div class="inline" id="twitter-icon"><a href="https://twitter.com/amber_maynee?lang=en"><i class="fab fa-twitter fa-7x"></i></a></div>
+          <div class="inline" id="email-icon"><a href="mailto:wammber15@gmail.com"><i class="far fa-envelope fa-7x"></i></a></div>
+        </div>
+
     </section>
     </div>
 
