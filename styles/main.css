@@ -63,6 +63,10 @@
   background-color: maroon;
 }
 
+.projects-header {
+  margin-bottom: 60px;
+}
+
 #projects-heading {
   margin-top: 100px;
   color: white;
@@ -79,6 +83,10 @@
 .project-inline {
   display: inline-block;
   margin-right: 5px;
+}
+
+.project-inline:hover {
+  color: black;
 }
 
 #contact-section {
