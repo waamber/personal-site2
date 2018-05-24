@@ -25,17 +25,6 @@ $('#contact-nav').click(function () {
   $(".main").moveTo(3);
 });
 
-//PROJECT MODALS//
-
-$(document).ready(function () {
-  $("#cache-modal").click(function () {
-    $('#cacheModal').modal('show');
-  });
-});
-
-
-
-
 //CONTACT ICON ANIMATION//
 
 $("#github-icon").hover(function () {
