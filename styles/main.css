@@ -32,35 +32,12 @@
   cursor: pointer;
 }
 
-#about-me-left {
-  background-color: black;
-  height: 900px;
-}
-
-#about-me-photo {
-  margin-top: 250px;
-}
-
-#about-title {
-  color: gainsboro;
-  font-family: 'Pacifico', cursive;
-}
-
-#about-description {
-  background-color:  gainsboro;
-  height: 900px;
-  margin-left: 0;
-  color: maroon;
-  font-family: 'Quicksand', sans-serif;
-}
-
-#about-description h3 {
-  margin: 25px;
-  margin-top: 250px;
-}
-
 #projects-section {
   background-color: maroon;
+}
+
+.projects-header {
+  margin-bottom: 60px;
 }
 
 #projects-heading {
@@ -79,6 +56,10 @@
 .project-inline {
   display: inline-block;
   margin-right: 5px;
+}
+
+.project-inline:hover {
+  color: black;
 }
 
 #contact-section {

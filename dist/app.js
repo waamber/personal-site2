@@ -17,16 +17,12 @@ $(".main").onepage_scroll({
 
 //NAV FUCTIONALITY//
 
-$('#about-nav').click(function () {
+$('#projects-nav').click(function () {
   $(".main").moveTo(2);
 });
 
-$('#projects-nav').click(function () {
-  $(".main").moveTo(3);
-});
-
 $('#contact-nav').click(function () {
-  $(".main").moveTo(4);
+  $(".main").moveTo(3);
 });
 
 //PROJECT MODALS//
