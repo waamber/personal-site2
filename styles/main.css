@@ -34,6 +34,7 @@
 
 #projects-section {
   background-color: maroon;
+  padding: 45px;
 }
 
 .projects-header {
@@ -48,6 +49,12 @@
 
 .project-title {
   font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.description {
+  height: 300px;
+  color: black;
 }
 
 .project-icon-group {
